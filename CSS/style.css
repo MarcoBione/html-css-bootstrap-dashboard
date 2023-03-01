@@ -1,3 +1,7 @@
+*{
+    font-family: 'Noto Sans', sans-serif;
+}
+
 :root{
     /* Color styles */
 --light: #FFFFFF;
@@ -73,7 +77,7 @@ header{
 
 /* side bar classes */
 #side-bar{
-    width: 150px;
+    width: 155px;
     height: 100%;
     flex-shrink: 0;
     background-color: var(--bg-sidebar);

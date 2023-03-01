@@ -10,6 +10,11 @@
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- /icons -->
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- /fonts -->
     <!-- style -->
     <link rel="stylesheet" href="./CSS/style.css">
     <!-- /sstyle -->
@@ -86,12 +91,20 @@
 
                     <div class="col-12 col-lg-8 debug">
 
-                        <div class="row">
+                        <div class="row d-flex flex-column">
+
                             <div class="col-12 p-4">
+
+                                <!-- first card -->
                                 <div class="card">
+
+                                    <!-- table title -->
                                     <div class="card-header">
                                         <h2 class="fw-semibold">Prossime classi</h2>
                                     </div>
+                                    <!-- /table title -->
+
+                                    <!-- table content -->
                                     <ul class="list-group list-group-flush d-flex">
 
                                         <li class="list-group-item">
@@ -189,17 +202,87 @@
                                                     </tr>
                                                     <!-- /eighth line -->
 
-
-
                                                   </tbody>
                                             
                                             </table>
                                         </li>
                                         
                                     </ul>
+                                    <!-- /table content -->
+
                                 </div>
-                                
+                                <!-- /first card -->
+
+                                <!-- second card -->
+                                <div class="card">
+
+                                    <!-- FAQ title -->
+                                    <div class="card-header">
+                                        <h2 class="fw-semibold text-uppercase">F.a.q.</h2>
+                                    </div>
+                                    <!-- /FAQ title -->
+
+                                    <!-- table content -->
+                                    <ul class="list-group list-group-flush d-flex">
+
+                                        <li class="list-group-item">
+
+                                            <!-- accordion start -->
+                                            <div class="accordion" id="accordionExample">
+
+                                                <!-- first faq -->
+                                                <div class="accordion-item">
+                                                  <h2 class="accordion-header" id="headingOne">
+                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                      <p class="fw-semibold">Come aggiungere un nuovo studente&quest;</p>
+                                                    </button>
+                                                  </h2>
+                                                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+                                                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <!-- /first faq -->
+
+                                                <div class="accordion-item">
+                                                  <h2 class="accordion-header" id="headingTwo">
+                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                        <p class="fw-semibold">Come posso accedere alle informazioni del mio account&quest;</p>
+                                                    </button>
+                                                  </h2>
+                                                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+                                                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                
+                                                <div class="accordion-item">
+                                                  <h2 class="accordion-header" id="headingThree">
+                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                        <p class="fw-semibold f">Posso usare queta dashboard da mobile&quest;</p>
+                                                    </button>
+                                                  </h2>
+                                                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+                                                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                                    </div>
+                                                  </div>
+                                                </div>
+
+                                              </div>
+                                              <!-- accordion start -->
+                                        </li>
+                                        
+                                    </ul>
+                                    <!-- /table content -->
+
+                                </div>
+                                <!-- /second card -->
+
                             </div>
+
                         </div>
 
                         
