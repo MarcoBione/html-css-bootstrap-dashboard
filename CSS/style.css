@@ -85,6 +85,14 @@ header{
     font-size: 1rem;
     padding-right: 1rem;
 }
+
+#side-bar button:hover{
+    background-color: var(--bg-header);
+    color: var(--bg-sidebar);
+}
+
+
+
 /* side bar classes end */
 
 main{
