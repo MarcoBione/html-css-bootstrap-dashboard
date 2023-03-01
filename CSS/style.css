@@ -29,16 +29,44 @@
 /* HEADER */
 
 header{
-    height: 80px;
     width: 100%;
+    background-color: var(--bg-header);
 }
+
+/* search area */
+.search-area{
+    flex-grow: 1;
+}
+
+.search-bar-color{
+    background-color: var(--bg-searchbar);
+}
+
+/* search area end */
+
+/* header commands area */
+.links a{
+    text-decoration: none;
+    color: var(--main-icon-color);
+    transition: color 0.3s;
+}
+
+.links a:hover{
+    color: var(--bg-breadcrumb);
+}
+
+.fa-bell {
+    color: var(--bell-color);
+}
+
+/* header commands area end */
 
 /* HEADER END */
 
 /* MAIN */
 
 .wrapper{
-    height: calc(100vh - 80px);
+    height: calc(100vh - 72px);
     width: 100%;
     overflow: hidden;
 }
