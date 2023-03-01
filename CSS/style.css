@@ -19,3 +19,27 @@
 
 }
 
+/* utilities */
+.debug{
+    outline: 1px solid red;
+}
+
+/* utilities end */
+
+/* HEADER */
+
+header{
+    height: 80px;
+    width: 100%;
+}
+
+/* HEADER END */
+
+/* MAIN */
+
+main{
+    height: calc(100vh - 80px);
+    width: 100%;
+}
+
+/* MAIN END */
