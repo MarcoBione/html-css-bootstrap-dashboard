@@ -97,8 +97,13 @@ header{
 
 main{
     flex-grow: 1;
-    overflow-y: hidden;
+    overflow-x: hidden;
     height: 100%;
 }
+
+tbody img{
+    width: 30px;
+}
+
 
 /* MAIN END */
