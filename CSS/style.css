@@ -37,9 +37,25 @@ header{
 
 /* MAIN */
 
-main{
+.wrapper{
     height: calc(100vh - 80px);
     width: 100%;
+    overflow: hidden;
+}
+
+#side-bar{
+    max-width: 200px;
+    height: 100%;
+    flex-shrink: 0;
+    background-color: var(--bg-sidebar);
+    background-image: url(../Assets/img/sidebar-bg.png);
+    color: var(--light);
+}
+
+main{
+    flex-grow: 1;
+    overflow-y: hidden;
+    height: 100%;
 }
 
 /* MAIN END */
