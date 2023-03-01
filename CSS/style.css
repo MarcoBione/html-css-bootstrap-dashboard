@@ -71,14 +71,21 @@ header{
     overflow: hidden;
 }
 
+/* side bar classes */
 #side-bar{
-    max-width: 200px;
+    width: 150px;
     height: 100%;
     flex-shrink: 0;
     background-color: var(--bg-sidebar);
     background-image: url(../Assets/img/sidebar-bg.png);
     color: var(--light);
 }
+
+#side-bar li i{
+    font-size: 1rem;
+    padding-right: 1rem;
+}
+/* side bar classes end */
 
 main{
     flex-grow: 1;
