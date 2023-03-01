@@ -1,0 +1,21 @@
+:root{
+    /* Color styles */
+--light: #FFFFFF;
+--dark: #000000;
+--bg-header: #F8F9FA;
+--bg-searchbar: #E5E5E5;
+--search-bar-text: #757575;
+--bell-color: #FF8F00;
+--bg-sidebar: #051E34;
+--bg-main-navbar: #1B72E8;
+--bg-breadcrumb: #165BBA;
+--bg-main: #F8F9FA;
+--bg-table-header: #F7F7F7;
+--main-text-color: #212529;
+--main-icon-color: #6C757D;
+--main-process-color: #FFC107;
+--main-failed-color: #DC3545;
+--main-done-color: #198754;
+
+}
+
