@@ -6,7 +6,7 @@
     /* Color styles */
 --light: #FFFFFF;
 --dark: #000000;
---bg-header: #F8F9FA;
+--bg-header: #f8f9fa;
 --bg-searchbar: #E5E5E5;
 --search-bar-text: #757575;
 --bell-color: #FF8F00;
@@ -91,7 +91,7 @@ header{
 }
 
 #side-bar button:hover{
-    background-color: var(--bg-header);
+    background-color: rgba(248, 249, 250, 0.8);;
     color: var(--bg-sidebar);
 }
 
