@@ -49,10 +49,21 @@
             </span>
 
             <span class="links d-flex justify-content-between align-items-center px-3 debug">
-                <span class="px-1"><a href="#"><i class="fa-solid fa-list"></i></a></span>
-                <span class="px-1"><a href="#"><i class="fa-solid fa-circle-question"></i></a></span>
-                <span class="px-1"><a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a></span>
-                <span class="px-1"><a href="#"><i class="fa-solid fa-bell"></i></a></span>
+                <span class="d-none d-lg-inline-block"><button class="btn bg-transparent border-0" type="button" aria-expanded="false"><i class="fa-solid fa-list text-secondary"></i></button></span>
+                <span class="d-none d-lg-inline-block"><button class="btn bg-transparent border-0" type="button" aria-expanded="false"><i class="fa-solid fa-circle-question text-secondary"></i></button></span>
+                <span class="d-none d-lg-inline-block"><button class="btn bg-transparent border-0" type="button" aria-expanded="false"><i class="fa-solid fa-ellipsis-vertical text-secondary"></i></button></span>
+
+                    <button class="btn bg-transparent border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-bell"></i>
+                    </button>
+
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item text-black" href="#">Profilo</a></li>
+                      <li><a class="dropdown-item text-black" href="#">Fatturazione</a></li>
+                      <li><a class="dropdown-item text-black" href="#">Logout</a></li>
+                    </ul>
+
+                </span>
             </span>
 
         </div>
@@ -140,54 +151,81 @@
                         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                           
                             <div class="offcanvas-header">
-                                <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo utente</h5>
+                                <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                             </div>
 
                             <div class="offcanvas-body">
 
-                                <ul class="list-group list-group-horizontal border-0">
+                                <!-- first section -->
+                                <div class="card">
 
-                                    <li class="list-group-item border-0">
+                                    <div class="card-body d-flex flex-row">
 
-                                        <span class="mb-3">
+                                        <!-- name -->
+                                        <span class=" me-3">
+
                                             <label for="name" class="form-label">Nome</label>
-                                            <input type="text" class="form-control" id="name" placeholder="Inserire nome" required>
-                                        </span>
 
-                                    </li>
-
-                                    <li class="list-group-item border-0">
-                                        <span class="mb-3">
-                                            <label for="surname" class="form-label">Surname</label>
-                                            <input type="text" class="form-control" id="surname" placeholder="Inserire cognome" required>
-                                        </span>
-                                    </li>
-                                </ul>
-
-                                <ul class="list-group list-group-horizontal border-0">
-
-                                    <li class="list-group-item border-0">
-
-                                        <div class="mb-3">
-
-                                            <label for="email-user" class="form-label">Email</label>
                                             <div class="input-group">
-
-                                              <span class="input-group-text" id="basic-addon3">@</span>
-                                              <input type="email" class="form-control" id="email-user" aria-describedby="basic-addon3">
+                                              <input type="text" class="form-control" id="name" placeholder="inserire nome" aria-describedby="basic-addon3" required>
                                             </div>
-                                          </div>
 
-                                    </li>
-
-                                    <li class="list-group-item border-0">
-                                        <span class="mb-3">
-                                            <label for="user-psw" class="form-label">Password</label>
-                                            <input type="password" class="form-control" id="user-psw placeholder=" required>
                                         </span>
-                                    </li>
-                                </ul>
+                                        <!-- /name -->
+
+                                        <!-- name -->
+                                        <span class="">
+
+                                            <label for="surname" class="form-label">Cognome</label>
+
+                                            <div class="input-group">
+                                              <input type="text" class="form-control" id="surname" placeholder="inserire cognome" aria-describedby="basic-addon3" required>
+                                            </div>
+
+                                        </span>
+                                        <!-- /name -->
+
+                                    </div>
+
+                                </div>
+                                <!-- first section -->
+
+                                <!-- second section -->
+                                <div class="card">
+
+                                    <div class="card-body d-flex flex-row">
+
+                                        <!-- name -->
+                                        <span class="">
+
+                                            <label for="email" class="form-label">Email</label>
+
+                                            <div class="input-group">
+                                                <!-- <span class="input-group-text" id="basic-addon1">@</span> -->
+                                                <input type="text" class="form-control w-25" placeholder="email" aria-label="Username" aria-describedby="basic-addon1">
+                                              </div>
+
+                                        </span>
+                                        <!-- /name -->
+
+                                        <!-- name -->
+                                        <span class="">
+
+                                            <label for="email" class="form-label">Email</label>
+
+                                            <div class="input-group">
+                                                <!-- <span class="input-group-text" id="basic-addon1">@</span> -->
+                                                <input type="text" class="form-control" placeholder="email" aria-label="Username" aria-describedby="basic-addon1">
+                                              </div>
+
+                                        </span>
+                                        <!-- /name -->
+
+                                    </div>
+
+                                </div>
+                                <!-- second section -->
 
                             </div>
                         </div>
