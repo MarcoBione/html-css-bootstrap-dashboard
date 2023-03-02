@@ -138,13 +138,58 @@
                         </div>
                         
                         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-                          <div class="offcanvas-header">
-                            <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                          </div>
-                          <div class="offcanvas-body">
-                            ...
-                          </div>
+                          
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo utente</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+
+                            <div class="offcanvas-body">
+
+                                <ul class="list-group list-group-horizontal border-0">
+
+                                    <li class="list-group-item border-0">
+
+                                        <span class="mb-3">
+                                            <label for="name" class="form-label">Nome</label>
+                                            <input type="text" class="form-control" id="name" placeholder="Inserire nome" required>
+                                        </span>
+
+                                    </li>
+
+                                    <li class="list-group-item border-0">
+                                        <span class="mb-3">
+                                            <label for="surname" class="form-label">Surname</label>
+                                            <input type="text" class="form-control" id="surname" placeholder="Inserire cognome" required>
+                                        </span>
+                                    </li>
+                                </ul>
+
+                                <ul class="list-group list-group-horizontal border-0">
+
+                                    <li class="list-group-item border-0">
+
+                                        <div class="mb-3">
+
+                                            <label for="email-user" class="form-label">Email</label>
+                                            <div class="input-group">
+
+                                              <span class="input-group-text" id="basic-addon3">@</span>
+                                              <input type="email" class="form-control" id="email-user" aria-describedby="basic-addon3">
+                                            </div>
+                                          </div>
+
+                                    </li>
+
+                                    <li class="list-group-item border-0">
+                                        <span class="mb-3">
+                                            <label for="user-psw" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="user-psw placeholder=" required>
+                                        </span>
+                                    </li>
+                                </ul>
+
+                            </div>
                         </div>
                     </section>
 
